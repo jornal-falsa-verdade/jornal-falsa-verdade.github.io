@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100vw;
+    background: #00a;
+    font-family: "Gotham";
+}
+
+h1 {
+    color: #fff;
+    font-weight: bold;
+    margin: 15px;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+#senha  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    background-color: transparent;
+    border: #fff 5px solid;
+    height: 25px;
+    border-radius: 10px;
+    margin: 15px;
+    color: #fff;
+    padding: 5px;
+    font-family: "Gotham";
+}
+input:focus {
+    outline: none;
+}
+
+#senha button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#senha button:hover img {
+    height: 45px;
+}
+
+#senha button img {
+    height: 50px;
+    transition: 0.2s;
+}
+
+#btn-entrar {
+    margin: 15px;
+    background: transparent;
+    border: #fff 3px solid;
+    color: #fff;
+    border-radius: 10px;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    font-family: "Gotham";
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#btn-entrar:hover {
+    border: transparent 3px solid;
+    color: #00a;
+    background: #fff;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JTF - SITE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>JFV - SITE</h1>
+  <div id="senha">
+
+		<div id="input-senha">
+  	  <input type="text" id="password-input">
+		</div>
+
+    <button id="versenha-img">
+      <img src="img/versenha-nao.svg">
+    </button>
+
+  </div>
+
+  <button id="btn-entrar">ENTRAR</button>
+
+  <script type="module" src="script.js"></script>
+  <script type="module" src="img/img.js"></script>
+
+  <script type="module">
+    import { versenhaF } from "./script.js";
+    document.querySelector("#versenha-img").addEventListener("click", function() {
+      versenhaF();
+    });
+
+    import { entrar } from "./script.js";
+    document.querySelector("#btn-entrar").addEventListener("click", function() {
+      entrar();
+    })
+  </script>
+</body>
+</html>
