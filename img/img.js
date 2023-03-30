@@ -1,1 +1,0 @@
-export const imgs = "versenha-nao.svg/versenha-sim.svg";
